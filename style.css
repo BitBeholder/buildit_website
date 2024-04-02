@@ -60,6 +60,13 @@ nav a:hover {
     padding: 3rem calc((100vw - 1300px) / 2);
 }
 
+.hero-container2 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80vh;
+}
+
 .column-right {
     display: flex;
     flex-direction: column;
