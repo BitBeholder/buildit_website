@@ -60,6 +60,15 @@ nav a:hover {
     padding: 3rem calc((100vw - 1300px) / 2);
 }
 
+.column-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0rem 2rem;
+    text-decoration: none;
+}
+
 .column-left {
     display: flex;
     flex-direction: column;
@@ -70,8 +79,14 @@ nav a:hover {
 }
 
 .eventbutton {
-    text-decoration: none;
     cursor: url('public/icons8-minecraft-pickaxe-42 (1).png'), auto;
+}
+
+.eventbutton2 {
+    text-decoration: underline;
+    cursor: url('public/icons8-minecraft-pickaxe-42 (1).png'), auto;
+    color: red;
+    hover: white;
 }
 
 .column-left h1 {
@@ -79,7 +94,44 @@ nav a:hover {
     font-size: 3rem;
 }
 
+.column-left h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
 .column-left p {
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.column-left2 p {
+    margin-top: 35vh;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    line-height: 1;
+}
+
+
+.column-right h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+
+.column-right2 h1 {
+    margin-top: 12vh;
+    margin-bottom: 3rem;
+    font-size: 3rem;
+}
+
+.column-right2 p {
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+
+.column-right p {
     margin-bottom: 5rem;
     font-size: 1.5rem;
     line-height: 1.5;
@@ -99,13 +151,6 @@ button {
 button:hover {
     background: rgb(223, 0, 0);
     color: white;
-}
-
-.column-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0rem 2rem;
 }
 
 .hero-image {
