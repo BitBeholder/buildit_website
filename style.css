@@ -22,11 +22,12 @@ body, html {
 }
 
 nav {
-    height: 80px;
+    height: 110px;
     background: #000000;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .logo {
