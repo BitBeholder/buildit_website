@@ -27,11 +27,12 @@ nav {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    padding: 5%;
+    padding: 5% 0;
 }
 
 nav .nav-items li {
     display: inline;
+    text-align: center;
 }
 
 .logo {
