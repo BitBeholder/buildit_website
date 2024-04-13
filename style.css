@@ -11,7 +11,7 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 2%;
     font-family: pixelfont7;
     color: white;
 }
@@ -30,9 +30,18 @@ nav {
     padding: 5% 0;
 }
 
+nav .nav-items {
+    padding: 0 !important;
+}
+
+nav .nav-items ul {
+    padding: 0 !important;
+}
+
 nav .nav-items li {
     display: inline;
     text-align: center;
+    padding: 0 20px !important;
 }
 
 .logo {
@@ -46,7 +55,7 @@ nav a {
     color: rgb(96, 255, 23);
     font-size: 1.5rem;
     font-family: thirteenpixel;
-    padding: 0 2rem;
+    padding: 0;
     text-decoration: none;
     cursor: url('public/icons8-minecraft-pickaxe-42 (1).png'), auto;
 }
@@ -62,8 +71,7 @@ nav a:hover {
 .hero-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 95vh;
-    padding: 3rem calc((100vw - 1300px) / 2);
+    /*padding: 3rem calc((100vw - 1300px) / 2);*/
 }
 
 .hero-container2 {
@@ -152,7 +160,7 @@ nav a:hover {
 
 button {
     padding: 1rem 3rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: thirteenpixel;
     border:lab(from color l a b);
     color: rgb(96, 255, 23);
@@ -179,14 +187,46 @@ button:hover {
     nav .nav-items li {
         display: block;
     }
-    
 
     .hero-container {
         grid-template-columns: 1fr;
     }
 
     .hero-image {
-        width: 90vw;
+        width: 106%;
         height: auto;
+        padding-top: 10%;
+    }
+
+    .column-left2 p {
+        margin-top: 0vh;
+        font-size: 1.5rem;
+        line-height: 1;
+        padding: 0% 5%
+    }    
+
+    .h1 {
+        margin-bottom: 2rem;
+        font-size: 3rem;
+        padding: 5% 10%;
+    }
+
+    .column-left2 {
+        font-size: 2rem;
+        line-height: 1;
+    }
+
+    .column-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 6% 0 0;
+        text-decoration: none;
+    }
+
+    .column-right {
+        padding: 0;
+        margin-left: -4%;
     }
 }
