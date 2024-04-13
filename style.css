@@ -22,12 +22,16 @@ body, html {
 }
 
 nav {
-    height: 110px;
     background: #000000;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
+    padding: 5%;
+}
+
+nav .nav-items li {
+    display: inline;
 }
 
 .logo {
@@ -162,7 +166,6 @@ button:hover {
 }
 
 .hero-image {
-    width: 60vh;
     height: 60vh;
 }
 
@@ -172,7 +175,17 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
+    nav .nav-items li {
+        display: block;
+    }
+    
+
     .hero-container {
         grid-template-columns: 1fr;
+    }
+
+    .hero-image {
+        width: 90vw;
+        height: auto;
     }
 }
