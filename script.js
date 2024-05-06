@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var button = document.getElementById('next_event_button');
 
     button.addEventListener('click', function(event) {
-        window.location.href = 'https://lu.ma/pz2swz0i'; // Redirect to the specified URL
+        window.location.href = 'https://lu.ma/qt6f8fm5'; // Redirect to the specified URL
     });
 });
 
